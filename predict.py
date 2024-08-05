@@ -10,7 +10,7 @@ def main():
     disable_torch_init()
     image = 'moellava/serve/examples/extreme_ironing.jpg'
     inp = 'What is unusual about this image?'
-    model_path = '"D:\MoE-LLaVA"'  # choose a model
+    model_path = "D:\MoE-LLaVA\pytorch_model-00001-of-00002.bin"  # choose a model
     device = 'cuda'
     load_4bit, load_8bit = False, False
     model_name = get_model_name_from_path(model_path)
